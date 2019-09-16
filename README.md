@@ -9,7 +9,7 @@
 
 docker image 
 ```
-$ docker pull ngrinder-controller:3.4
+$ docker pull ngrinder/controller
 ```
 
 start controller
@@ -29,7 +29,7 @@ Port info. :
 
 docker image 
 ```
-$ docker pull ngrinder/agent:3.4
+$ docker pull ngrinder/agent
 ```
 
 start agent 
