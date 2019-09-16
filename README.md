@@ -32,7 +32,7 @@ docker image
 $ docker pull ngrinder/agent:3.4
 ```
 
-dtart agent 
+start agent 
 ```
 # docker run -v ~/ngrinder-agent:/opt/ngrinder-agent -d ngrinder/agent:3.4 {controller_ip}:{controller_web_port}
 docker run -v ~/ngrinder-agent:/opt/ngrinder-agent -d ngrinder/agent:3.4 127.0.0.1:80
