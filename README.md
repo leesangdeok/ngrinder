@@ -14,7 +14,7 @@ $ docker pull ngrinder/controller
 
 start controller
 ```
-
+docker run -d -v ~/ngrinder-controller:/opt/ngrinder-controller -p 8090:80 -p 16001:16001 -p 12000-12009:12000-12009 ngrinder/controller:3.4
 ``` 
 
 Port info. : 
